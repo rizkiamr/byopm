@@ -1,4 +1,4 @@
-module github.com/rizkiamr/byo-password-manager
+module github.com/rizkiamr/byopm
 
 go 1.23
 
