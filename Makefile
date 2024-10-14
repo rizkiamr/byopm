@@ -1,10 +1,10 @@
 run:
-	go run main.go
+	go run cmd/byopm/main.go
 
 build:
-	go build -o byopm main.go
+	go build -o build/byopm cmd/byopm/main.go
 
 build-clean:
-	rm -rf byopm
+	rm -rf build/byopm
 
 .PHONY: run build build-clean
